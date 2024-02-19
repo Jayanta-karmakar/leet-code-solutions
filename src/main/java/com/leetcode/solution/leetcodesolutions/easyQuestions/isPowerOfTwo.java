@@ -11,8 +11,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class isPowerOfTwo {
     public static boolean powerOfTwo(int n) {
-        // TODO
-        return false;
+        if (n > 0) {
+            return  (n & (n - 1)) == 0;
+        }
+         return false;
     }
 
     public static void main(String[] args) {
