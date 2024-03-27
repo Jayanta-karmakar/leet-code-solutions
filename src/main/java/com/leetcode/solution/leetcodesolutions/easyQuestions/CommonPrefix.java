@@ -4,6 +4,7 @@ package com.leetcode.solution.leetcodesolutions.easyQuestions;
  * @author : jayantakarmakar
  * @mailto : jayantakarmakar998@mail.com
  **/
+
 public class CommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
