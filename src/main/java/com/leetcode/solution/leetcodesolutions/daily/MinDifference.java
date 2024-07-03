@@ -26,7 +26,7 @@ public class MinDifference {
 
     public static void main(String[] args) {
         MinDifference solution = new MinDifference();
-        int[] nums = {1,5,0,10,14};
+        int[] nums = {1, 5, 0, 10, 14, 1};
         System.out.println(solution.minDifference(nums));  // Output: 1
     }
 }
