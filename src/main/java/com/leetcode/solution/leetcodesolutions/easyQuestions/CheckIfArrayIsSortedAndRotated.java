@@ -16,7 +16,9 @@ public class CheckIfArrayIsSortedAndRotated {
         int n = nums.length;
 
         for (int i = 0; i < n; i++) {
-            if (nums[i] > nums[(i + 1) % n]) {
+            int a = nums[i];
+            int b = nums[(i + 1) % n];
+            if (a > b) {
                 count++;
             }
             if (count > 1) {
