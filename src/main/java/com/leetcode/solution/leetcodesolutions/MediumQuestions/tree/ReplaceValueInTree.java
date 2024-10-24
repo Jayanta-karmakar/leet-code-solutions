@@ -1,4 +1,4 @@
-package com.leetcode.solution.leetcodesolutions.MediumQuestions;
+package com.leetcode.solution.leetcodesolutions.MediumQuestions.tree;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
