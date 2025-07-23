@@ -14,11 +14,11 @@ public class BuyAndSellStock {
         int minPrice = Integer.MAX_VALUE; // Initialize to maximum value
         int maxProfit = 0; // Initialize to zero
 
-        for (int price : prices) {
-            if (price < minPrice) {
-                minPrice = price; // Update minimum price
-            } else if (price - minPrice > maxProfit) {
-                maxProfit = price - minPrice; // Update maximum profit
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < minPrice) {
+                minPrice = prices[i]; // Update minimum price
+            } else if (prices[i] - minPrice > maxProfit) {
+                maxProfit = prices[i] - minPrice; // Update maximum profit
             }
         }
 
